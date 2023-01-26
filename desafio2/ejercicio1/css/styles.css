@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: #0a2ff1;
+
+}
+
+div {
+    width: 60%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 78.6px;
+    margin-bottom: 4vw;
+    margin-left: 2vw;
+}
+
+p {
+    margin-left: 2vw;
+    font-size: 30.7px;
+}
+
+strong {
+    background-color: #3ffff3;
+}
+
+#celu {
+    margin-top: 1vw;    
+    margin-left: 2vw;
+    width: 40%;
+}
+
+/* #fondo {
+    background-image: url("img/fondo.JPG");
+} */
