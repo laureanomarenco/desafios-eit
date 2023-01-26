@@ -1,0 +1,31 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.coiny {
+    font-family: "Coiny", cursive;
+}
+
+.fondo-amarillo {
+    background-color: #FCEE21;
+}
+
+
+ol {
+    font-size: 2em;
+    font-weight: 400;
+    list-style-position: inside;
+}
+
+h1, h2, h3, h4 {
+    color: black;
+}
+
+h2, h3 {
+    font-size: 20px;
+    background-color: #FCEE21;
+}
+
+footer h1 {
+    font-size: 33px;
+}

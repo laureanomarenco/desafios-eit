@@ -1,0 +1,42 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin-right: 10px;
+}
+
+h1 {
+    font-weight: 700;
+    color: #0A2FF1;
+    font-size: 66.6px;
+}
+
+h2 {
+    display: inline;
+    font-weight: 400;
+    color: #0A2FF1;
+    background-color: #EFF2FF;
+    font-size: 30px;
+}
+
+strong {
+    font-weight: 700;
+}
+
+button {
+    font-weight: 400;
+    color: white;
+    background-color: #8A9AF1;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+#line-button{
+    border-bottom: 4px solid #3FFFF3;
+}
+
+img {
+    width: 30%;
+}
+

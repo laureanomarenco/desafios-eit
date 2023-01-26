@@ -5,61 +5,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
     <title>Documen</title>
 </head>
-<header>
-    <h1>wwwwapas</h1>
-
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="#servicios">Servicios</a>
-        <a href="#contacto">Contacto</a>
-    </nav>
-
-    <h2>somos wwwwapas</h2>
-    <h2>social media managers | creadoras de contenido</h2>
-
-    <p>Nos encargamos de construir, gestionar y administrar la comunidad
-        online de tu marca, empresa o negocio ¡Creamos relaciones estables y
-        duraderas con tus clientes</p>
-</header>
 
 <body>
-    <h3>Hola! Somos SOFI & JULIA,</h3>
-    <p>las social media managers, las creadoras de contenido, las
-        copywriters, las generadoras de leads, las diseñadoras, las
-        estrategas en marketing digital, las potenciadoras de ventas,
-        el posicionamiento de tu marca <strong>¡Somos el complemento que
-            necesitás para hacer crecer tu marca! ¡Somos wwwapas!</strong></p>
+    <header>
+        <nav>
+            <h1>wwwwapas</h1>
+            <ul>
+                <li>
+                    <a href="#">Inicio</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="inicio">
 
-    <h3>GESTIONAMOS TUS REDES SOCIALES</h3>
-    <p>La transformación digital no es solo para grandes compañías,
-        todas las empresas deben emprenderla cuanto antes y aquí
-        es donde podemos asistirte. Armamos estrategias a medida
-        para tu empresa, marca o producto <strong>¡Aumentá tu presencia
-            digital y generá nuevas ventas y contactos!</strong></p>
+        <h2>somos <strong id="wapas">wwwwapas</strong></h2>
+        <h2>social media managers | creadoras de contenido</h2>
 
-    <h2 id="servicios">Servicios</h2>
+        <p>Nos encargamos de construir, gestionar y administrar la comunidad
+            online de tu marca, empresa o negocio ¡Creamos relaciones estables y
+            duraderas con tus clientes</p>
+        <img src="img/foto.png" alt="nosotras">
+        <h3>Hola! Somos SOFI & JULIA,</h3>
+        <p>las social media managers, las creadoras de contenido, las
+            copywriters, las generadoras de leads, las diseñadoras, las
+            estrategas en marketing digital, las potenciadoras de ventas,
+            el posicionamiento de tu marca <strong>¡Somos el complemento que
+                necesitás para hacer crecer tu marca! ¡Somos wwwapas!</strong></p>
 
-    <ol>
-        <li>Análisis de perfil (Benchmarking)</li>
-        <li>Revisión y activación de canales</li>
-        <li>Gestión, creación y diseño de contenido</li>
-        <li>Respuestas a mensajes y consultas</li>
-        <li>Segmentación de promociones según el público objetivo 
-            de la pauta publicitaria</li>
-        <li>Diagramamos un calendario que se ajuste a los objetivos 
-            de la empresa</li>
-        <li>¡Empezamos a comunicar!</li>
-    </ol>
+        <h3>GESTIONAMOS TUS REDES SOCIALES</h3>
+        <p>La transformación digital no es solo para grandes compañías,
+            todas las empresas deben emprenderla cuanto antes y aquí
+            es donde podemos asistirte. Armamos estrategias a medida
+            para tu empresa, marca o producto <strong>¡Aumentá tu presencia
+                digital y generá nuevas ventas y contactos!</strong></p>
 
-    <strong id="contacto">¿Querés que nos contactemos con vos?</strong>
+    </div>
 
-    <a href="#">Envianos tu consulta >></a>
+    <div id="seccios-servicios">
+        <img src="img/img-servicios.png" alt="imagen de servicios">
+        <h2 id="servicios">Servicios</h2>
+        <ol>
+            <li>Análisis de perfil (Benchmarking)</li>
+            <li>Revisión y activación de canales</li>
+            <li>Gestión, creación y diseño de contenido</li>
+            <li>Respuestas a mensajes y consultas</li>
+            <li>Segmentación de promociones según el público objetivo
+                de la pauta publicitaria</li>
+            <li>Diagramamos un calendario que se ajuste a los objetivos
+                de la empresa</li>
+            <li>¡Empezamos a comunicar!</li>
+        </ol>
+    </div>
+
+    <div id="contacto">
+        <div>
+            <strong id="contacto">¿Querés que nos contactemos con vos?</strong>
+            
+            <a href="#">Envianos tu consulta >></a>
+        </div>
+        <div>
+            <label for="nombre">Nombre <span>*</span></label>
+            <input type="text" name="nombre">
+
+            <label for="email">Email <span>*</span></label>
+            <input type="text" name="email">
+
+            <label for="mensaje">Mensaje <span>*</span></label>
+            <input type="text" name="mensaje">
+        </div>
+    </div>
+
+    <div id="redes">
+        <p>redes <br> wwwapas</p>
+        <a title="instagram educación IT" href="https://www.instagram.com/educacionit/" target="_blank">
+            <img src="img/instagram-icon.png" alt="instagram">
+        </a>
+        
+        <img src="img/dribbble-icon.png" alt="dribble">
+
+        <img src="img/linkedin-icon.png" alt="dribble">
+
+        <a title="facebook educación IT" href="https://www.instagram.com/educacionit/" target="_blank">
+            <img src="img/facebook-icon.png" alt="instagram">
+        </a>
+    </div>
+
+    <footer>
+        <h1 class="coiny">wwwapas</h1>
+        <a href="mailto: wwwwapas_sm@gmail.com">wwwwapas_sm@gmail.com</a>
+    </footer>
 </body>
-
-<footer>
-    
-    <a href="mailto: wwwwapas_sm@gmail.com"></a>
-</footer>
 </html>
